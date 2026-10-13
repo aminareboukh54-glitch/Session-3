@@ -1,37 +1,33 @@
-# Formaliser les fonctionnalités de l'Administrateur
+# Actions brutes de l’Administrateur
 
-## 1. Gestion des Articles
+## 1. Tableau de bord
 
-* L’Administrateur liste les articles.
-* L’Administrateur ajoute un article.
-* L’Administrateur modifie un article.
-* L’Administrateur supprime un article.
+* Cliquer sur « Gestion des articles ».
+* Cliquer sur « Gestion des catégories ».
+* Cliquer sur « Se déconnecter ».
 
-## 2. Gestion des Catégories
+## 2. Gestion des articles
 
-* L’Administrateur liste les catégories.
-* L’Administrateur ajoute une catégorie.
-* L’Administrateur modifie une catégorie.
-* L’Administrateur supprime une catégorie.
+* Visualiser la liste des articles.
+* Cliquer sur « Ajouter un article ».
+* Cliquer sur l’icône « Modifier » d’une ligne.
+* Cliquer sur l’icône « Supprimer » d’une ligne.
+* Remplir le formulaire avec le titre, l’image, la catégorie et le contenu.
+* Cliquer sur « Enregistrer ».
 
-## 3. Parcours fonctionnel
+## 3. Gestion des catégories
 
-### L’Administrateur ajoute une catégorie
+* Voir la liste des catégories.
+* Cliquer sur « Ajouter une catégorie ».
+* Remplir le formulaire de création d’une catégorie.
+* Cliquer sur « Enregistrer ».
+* Cliquer sur l’icône « Modifier » d’une catégorie.
+* Cliquer sur l’icône « Supprimer » d’une catégorie.
 
-* **Acteur :** Administrateur
-* **Écran de départ :** Page de gestion des catégories
-* **Action :** Clique sur le bouton « Ajouter une catégorie »
-* **Résultat :** Affichage du formulaire de création de catégorie
+## 4. Modèle CRUD
 
-## 4. Synthèse fonctionnelle
+* **Create :** Ajouter un article ou une catégorie.
+* **Read :** Visualiser la liste des articles ou des catégories.
+* **Update :** Modifier un article ou une catégorie.
+* **Delete :** Supprimer un article ou une catégorie.
 
-| Acteur         | Fonctionnalités         |
-| -------------- | ----------------------- |
-| Administrateur | Lister les articles     |
-| Administrateur | Ajouter un article      |
-| Administrateur | Modifier un article     |
-| Administrateur | Supprimer un article    |
-| Administrateur | Lister les catégories   |
-| Administrateur | Ajouter une catégorie   |
-| Administrateur | Modifier une catégorie  |
-| Administrateur | Supprimer une catégorie |
