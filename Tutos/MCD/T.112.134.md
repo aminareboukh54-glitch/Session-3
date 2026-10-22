@@ -22,6 +22,10 @@
 - heure_commande
 - statut_commande
 
+### Entité CATEGORIE
+- **#code_categorie**
+- nome_categorie
+
 ## 2. Associations et cardinalités
 
 ### Association PASSER
@@ -37,6 +41,11 @@ Relation entre COMMANDE et REPAS.
 
 - COMMANDE : (1,N)
 - REPAS : (0,N)
+
+### Association appartient
+relation entre repas et categorie
+- repas : (1,N)
+Categorie : (1,N)
 
 **Propriétés de l’association CONTENIR :**
 - quantite_commandee
