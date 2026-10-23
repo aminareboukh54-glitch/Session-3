@@ -24,6 +24,7 @@ console.log("Minimum :", minimum, "(Index :", positionMin + ")");
 
 let recherche = 31;
 let position = -1;
+ 
 
 /*
 On initialise la position à -1 car cet index n'existe pas
