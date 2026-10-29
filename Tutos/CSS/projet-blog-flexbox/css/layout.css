@@ -72,4 +72,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 48px;
+}
+.liens-navigation{
+  display: flex;
+    gap: 24px;
 }
