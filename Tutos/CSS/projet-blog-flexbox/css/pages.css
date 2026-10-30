@@ -47,3 +47,37 @@
     display: flex;
     gap: 32px;
 }
+
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    color: #0a2042;
+    font-family: Georgia, serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.banniere-accueil h1 span {
+    color: #2673e8;
+}
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    color: #6b7280;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.actions-banniere {
+    margin-top: 28px;
+}
